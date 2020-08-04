@@ -1,2 +1,3 @@
 # EIRP-Pl-calculator-
-A python script to calculate EIPR and Pl in Mobile Communication 
+A python script to calculate EIRP (Effective Isotropic Radiated Power) and Pl in Mobile Communication 
+
