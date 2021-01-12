@@ -13,15 +13,15 @@ Gr = (Gr+2.15)
 Pr = (Pr-31)
 
 Eirp = float(Pt+Gt-Lt)
-print('EIRP in dBw:')
-print(Eirp)
-print("EIRP in watt:")
+print('EIRP in dBw:',Eirp)
 s = (Eirp/10.0)
-print(10**s)
+print("EIRP in watt:",10**s)
+
+
 
 Pl = float(Pt+Gt+Gr-Pr-Lt-Lr)
-print("PL in dB:")
-print(Pl)
+print("PL in dB:" ,Pl)
+
 
 
 
